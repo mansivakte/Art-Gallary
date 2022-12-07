@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+*{
+    padding: 0;margin: 0;box-sizing: border-box;font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    position: relative;
+    background-color: #eee;
+    scroll-behavior: smooth;
+}
+:root
+{
+    --mediumteal: #045F5F(28, 230, 93);
+    --black:rgb(7, 7, 41);
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #045F5F(28, 230, 92, 0.377) ;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--mediumteal);
+}
+
+::selection{
+    background: var(--mediumteal);color: var(--black);
+    animation: selec 5s ;
+}
+.para{
+    display: flexbox;
+    padding: 1% 29%;
+    font-size: larger;
+}
+.para-box{
+   margin-left: 30px;
+    display: flex;
+    padding: 0% 29%;
+    /* width: 100px; */
+}
+.account-circle{
+    color: 'action.active';
+    font-size: larger;
+    /* width: 56 !important; 
+    height: 56 !important; */
+}
+.form{
+    display: flex
+   
+}
+.footer{
+    width: 100%;
+    padding: 20px 0;
+    background: #4a4a4a;
+}
+.footer .des,footer .category,footer .links, footer .contact {
+    padding: 5px;
+    flex: 1 1 20%;
+    background-color: #4a4a4a;
+}
+.container{
+    padding: 0 10%;
+}
+.footer .des .logo{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--mediumteal);
+    font-weight: bold;
+}
+.footer .des p{
+    color: #fff;
+    padding: 10px 0;
+}
+.footer .des .fab{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    width: 2rem;height: 2rem;background: var(--mediumteal);
+    color: #fff;
+    text-align: center;
+}
+.social{font-size: 1.6rem;
+    line-height: 2rem;
+    width: 2rem;height: 2rem;background: var(--mediumteal);
+    color: #045F5F;
+    text-align: center;
+}
+.footer h2{
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer li{
+    color: #eee;
+    list-style: none;
+    padding: 5px 0;
+    text-transform: capitalize;
+    transition: .3s;
+}
+.footer li:hover{
+    text-decoration: underline;cursor: pointer
+}
+.footer .contact li:hover{
+    text-decoration: none;
+}
+.footer .contact li span{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.footer  .copy{
+    width: 100%;
+    padding: 10px 0;
+    text-transform: capitalize;
+    text-align: center;
+    color: #eee;
+}
+.footer  .copy span{
+    color: var(--mediumteal);
+    font-weight: 600;
+}
+.footer  .copy hr{
+    margin-bottom: 5px;
+}

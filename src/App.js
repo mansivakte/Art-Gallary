@@ -1,10 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
+import AppHeader from "./App/Common/AppBar";
+import Footer from "./App/Common/Footer";
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome</h1>
+      <AppHeader />
+      <Footer />
     </div>
   );
 }
